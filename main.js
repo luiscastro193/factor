@@ -1,5 +1,5 @@
 "use strict";
-const factor = 96 / 300;
+const factor = 95 / 300;
 const gr = document.getElementById('gr');
 const ml = document.getElementById('ml');
 
