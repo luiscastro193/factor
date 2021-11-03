@@ -22,6 +22,7 @@ function selectInput(input) {
 }
 
 for (let input of [gr, ml]) {
+	input.disabled = false;
 	input.addEventListener('mouseenter', () => input.focus());
 	input.addEventListener('focus', () => selectInput(input));
 }
