@@ -1,7 +1,7 @@
 "use strict";
-const factor = 95 / 300;
 const gr = document.getElementById('gr');
 const ml = document.getElementById('ml');
+const factor = gr.value / ml.value;
 
 function fix(value) {
 	return Number(value.toFixed(1));
