@@ -7,6 +7,11 @@ body {
 	filter: invert(1);
 }
 
+select {
+	display: block;
+	margin: 1em 0;
+}
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
